@@ -8,13 +8,11 @@
 	<?php settings_fields( cwp_config("menu_slug")); ?>
  
 		<div id="header">
-		
 			<div class="logo ">
-				<h2><?php echo cwp_config('admin_page_header'); ?></h2>
 			</div>
-		  
+			<a href="http://themeisle.com/contact/" class="button button_top" target="_blank"><?php _e('Contact us','cwp'); ?></a>
+			<a href="http://themeisle.com/about-us/" class="button button_top" target="_blank"><?php _e('About us','cwp'); ?></a>
 			<div class="clear"></div>
-		
     	</div>
 
 		<div id="info_bar">

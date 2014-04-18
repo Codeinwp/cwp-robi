@@ -1,6 +1,6 @@
 = CWP Robi =
 Contributors:		
-Codeinwp, Hapiuc Robert
+codeinwp
 
 Tags: black, blue, white, gray, one-column, three-columns, right-sidebar, custom-menu, theme-options, translation-ready
 Requires at least:	3.3.0

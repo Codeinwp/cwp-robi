@@ -1,12 +1,12 @@
 @charset utf-8;
 /*
 Theme Name: CWP Robi
-Author: Codeinwp
-Author URI: http://www.codeinwp.com
-Theme URI: http://themes.codeinwp.com/themes/cwp-robi/
+Theme URI: themeisle.com
+Author: codeinwp
+Author URI:  Codeinwp.com
 Description: CWP-Robi is a colorful WordPress Theme made for people who want to add some color to their blog.Along with the elegant design the theme is easily customizable with numerous theme options, for example you will be able to easily edit logo, menus, social profiles links and banners. 
-Version: 1.0.7
-License: GNU General Public License
+Version: 1.0.4
+License: GNU General Public License v2
 License URI: license.txt
 Tags: black, blue, white, gray,featured-images, fixed-width, one-column, three-columns,right-sidebar, custom-menu, theme-options,custom-background,custom-header
 
@@ -1133,7 +1133,13 @@ li.comment {
 	margin-top:40px;
 	margin-right: 20px;
 }
-	
+
+.poweredby {
+	float: right;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	margin-right: 20px;
+}	
 
 /* =WordPress Core
 -------------------------------------------------------------- */
