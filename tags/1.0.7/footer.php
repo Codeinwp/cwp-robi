@@ -57,10 +57,6 @@
 	<?php
 		}
 	?>	
-	<div class="clearfix"></div>
-	<div class="poweredby">
-		<a href="http://themeisle.com/themes/cwp-robi/?utm_source=themefooter&utm_medium=logo&utm_campaign=themefooter" target="_blank">CWP Robi</a><?php _e(' powered by ','cwp'); ?><a href="http://wordpress.org/" target="_blank"><?php _e('WordPress','cwp'); ?></a>
-	</div>
 	
 </footer>
 </section><!--#wrap end-->

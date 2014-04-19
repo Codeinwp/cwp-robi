@@ -364,5 +364,4 @@ function cwp_comment( $comment, $args, $depth ) {
 	endswitch; // end comment_type check
 }
 
-
- 
+?>
