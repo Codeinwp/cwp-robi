@@ -12,6 +12,8 @@
 			</div>
 			<a href="http://themeisle.com/contact/" class="button button_top" target="_blank"><?php _e('Contact us','cwp'); ?></a>
 			<a href="http://themeisle.com/about-us/" class="button button_top" target="_blank"><?php _e('About us','cwp'); ?></a>
+			<a href="http://themeisle.com/forums/forum/cwp-robi" class="button button_top" target="_blank"><?php _e('Forum','cwp'); ?></a>
+			<a href="http://themeisle.com/documentation-cwp-robi" class="button button_top" target="_blank"><?php _e('Documentation','cwp'); ?></a>
 			<div class="clear"></div>
     	</div>
 
