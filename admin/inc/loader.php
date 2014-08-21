@@ -383,3 +383,8 @@ function cwp($name = ''){
 	}
 	return null;
 }
+
+add_action( 'admin_enqueue_scripts', 'cwp_top_custom_wp_admin_script'); 
+function cwp_top_custom_wp_admin_script(){
+	 wp_enqueue_media();
+}
