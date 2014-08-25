@@ -1,14 +1,13 @@
-@charset utf-8;
 /*
 Theme Name: CWP Robi
-Theme URI: http://themeisle.com/themes/cwp-robi/
+Theme URI: http://themeisle.com/demo/?theme=CWP-Robi
 Author: codeinwp
 Author URI:  Codeinwp.com
-Description: CWP-Robi is a colorful WordPress Theme made for people who want to add some color to their blog.Along with the elegant design the theme is easily customizable with numerous theme options, for example you will be able to easily edit logo, menus, social profiles links and banners. 
-Version: 1.0.9
-License: GNU General Public License v2
+Description: CWP Robi is a colorful WordPress Theme made for people who want to add some color to their blog.Along with the elegant design the theme is easily customizable with numerous theme options, for example you will be able to easily edit logo, menus, social profiles links and banners.
+Version: 1.1
+License: GNU General Public License v3
 License URI: license.txt
-Tags: black, blue, white, gray,featured-images, fixed-width, one-column, three-columns,right-sidebar, custom-menu, theme-options,custom-background,custom-header
+Tags: black, blue, white, gray,featured-images, fixed-width, one-column, three-columns,right-sidebar, custom-menu, theme-options,custom-background,custom-header,translation-ready
 
 00 - General style & Reset
 01 - Header
@@ -47,7 +46,7 @@ body {
 .clearfix { clear: both; }
 
 /*--- 01 - Header ---*/
-	
+
 #header {
 	width: 960px;
 	min-height: 203px;
@@ -107,7 +106,7 @@ body {
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 	border-left: 1px solid rgba(255, 255, 255, 0.5);
-	
+
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
@@ -126,7 +125,7 @@ body {
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 	border-left: 1px solid rgba(255, 255, 255, 0.5);
-	
+
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
@@ -158,7 +157,7 @@ body {
 	background: rgba(255, 255, 255, 0.2) url(images/search-icon-hover.png) no-repeat center center;
 	cursor: pointer;
 }
-	
+
 
 #hmenu {
 	/*width: 960px;*/
@@ -182,7 +181,7 @@ body {
 	font-family: 'Oswald', sans-serif;
 	color: #fff;
 	line-height: 25px;
-	
+
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -205,13 +204,13 @@ body {
 	line-height: 30px;
 	text-align: center;
 	position: relative;
-	
+
 	background-image: linear-gradient(bottom, rgb(247,247,247) 5%, rgb(245,245,245) 53%, rgb(252,252,252) 77%);
     background-image: -o-linear-gradient(bottom, rgb(247,247,247) 5%, rgb(245,245,245) 53%, rgb(252,252,252) 77%);
     background-image: -moz-linear-gradient(bottom, rgb(247,247,247) 5%, rgb(245,245,245) 53%, rgb(252,252,252) 77%);
     background-image: -webkit-linear-gradient(bottom, rgb(247,247,247) 5%, rgb(245,245,245) 53%, rgb(252,252,252) 77%);
     background-image: -ms-linear-gradient(bottom, rgb(247,247,247) 5%, rgb(245,245,245) 53%, rgb(252,252,252) 77%);
-	
+
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -227,8 +226,8 @@ body {
 	color: #000;
 }
 
-#hmenu .category ul { 
-	display: none; 
+#hmenu .category ul {
+	display: none;
 }
 
 #hmenu .category:hover ul {
@@ -258,7 +257,7 @@ body {
 	float: none;
 	color: #4d4d4d;
 	display: block;
-	
+
 }
 
 #hmenu .category:hover ul a:hover {
@@ -411,7 +410,7 @@ body {
 #content .item .readmore a:hover {
 	color: #010d26;
 }
-	
+
 #content .item .image {
 	width: 290px;
 	overflow: hidden;
@@ -420,7 +419,7 @@ body {
 
 #content .item .image img {
 	width: 100%;
-	
+
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -439,7 +438,7 @@ body {
 	height: 40px;
 	display: block;
 	color: #4d4d4d;
-	
+
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -459,7 +458,7 @@ body {
 	font-size: 18px;
 	line-height: 40px;
 	text-align: center;
-	
+
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -469,7 +468,7 @@ body {
 
 #content .item .prev:hover {
 	background-position: 20px 15px;
-	
+
 }
 
 #content .item .next {
@@ -481,7 +480,7 @@ body {
 	line-height: 40px;
 	text-align: center;
 	margin-top: 1px;
-	
+
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -564,7 +563,7 @@ body {
 	color: #828282;
 }
 
-.postcontent p { 
+.postcontent p {
 	margin-bottom: 10px;
 	line-height: 24px;
 }
@@ -582,10 +581,10 @@ body {
 .postcontent h3,
 .postcontent h4,
 .postcontent h5,
-.postcontent h6 
-{ 
+.postcontent h6
+{
 	margin: 8px 0px;
-	border-bottom: 1px solid #eee; 
+	border-bottom: 1px solid #eee;
 	width: 100%;
 	padding-bottom: 12px;
 	color: #555;
@@ -596,8 +595,8 @@ body {
 .postcontent table {border: 1px solid #ccc;}
 .postcontent td {border-top: 1px solid #ccc;border-left: 1px solid #ccc;padding: 5px;}
 
-.postcontent ul, 
-.postcontent li, 
+.postcontent ul,
+.postcontent li,
 .postcontent ol,
 .postcontent dl,
 .postcontent dd
@@ -605,7 +604,7 @@ body {
 
 .postcontent blockquote {color: #777; margin-left: 15px;}
 
-.postcontent cite, .postcontent q { 
+.postcontent cite, .postcontent q {
 	font-style: italic;
 	font-size: 12px;
 }
@@ -679,11 +678,11 @@ body {
 	background-image: -moz-linear-gradient(bottom, rgb(235,235,235) 26%, rgb(250,250,250) 63%);
 	background-image: -webkit-linear-gradient(bottom, rgb(235,235,235) 26%, rgb(250,250,250) 63%);
 	background-image: -ms-linear-gradient(bottom, rgb(235,235,235) 26%, rgb(250,250,250) 63%);
-	
+
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	
+
 	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -695,12 +694,12 @@ body {
 	background-image: -moz-linear-gradient(bottom, rgb(250,250,250) 26%, rgb(235,235,235) 63%);
 	background-image: -webkit-linear-gradient(bottom, rgb(250,250,250) 26%, rgb(235,235,235) 63%);
 	background-image: -ms-linear-gradient(bottom, rgb(250,250,250) 26%, rgb(235,235,235) 63%);
-	
+
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
-	
+
 .postcontent .linklist .link a {
 	width: 95px;
 	height: 30px;
@@ -723,7 +722,7 @@ body {
 	width: 32px;
 	height: 32px;
 	float: left;
-	display: block;	
+	display: block;
 }
 
 .aboutauthor .name {
@@ -814,7 +813,7 @@ body {
 	font-family: Arial, sans-serif;
 	color: #4d4d4d;
 	display: block;
-	
+
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -912,7 +911,7 @@ body {
 	background: #fff;
 	border: 1px solid #ccc;
 	color: #999;
-	
+
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -931,7 +930,7 @@ body {
 	width: 300px;
 	padding:8px;
 }
-	
+
 
 #commentform label {
 	width: 200px;
@@ -966,7 +965,7 @@ body {
 	background: url(images/button.png) no-repeat center center;
 	padding: 10px;
 }
-	
+
 .comment {
 	max-width: 595px;
 	padding: 10px;
@@ -1039,7 +1038,7 @@ li.comment {
 
 #footer {
 	width: 960px;
-	
+
 	min-height: 110px;
 	margin: 15px 0 15px 0;
 	background: #fbfbfb;
@@ -1065,7 +1064,7 @@ li.comment {
 	margin: 10px 0 0 10px;
 	float: left;
 	width: 280px;
-	
+
 	/*max-width: 280px;
 	float: left;
 	margin: 10px 10px 10px 10px;
@@ -1083,7 +1082,7 @@ li.comment {
 .aboutImg img {
 	width:60px;
 	height:75px;
-	
+
 }
 
 .aboutTitleText {
@@ -1112,7 +1111,7 @@ li.comment {
 #footer .social img {
 	margin-right: 15px;
 	float: left;
-	
+
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -1139,7 +1138,7 @@ li.comment {
 	font-family: Arial, sans-serif;
 	font-size: 12px;
 	margin-right: 20px;
-}	
+}
 
 /* =WordPress Core
 -------------------------------------------------------------- */
@@ -1226,7 +1225,7 @@ a img.aligncenter {
 
 .bypostauthor  { font-weight: bold; }
 
-.size-auto, 
+.size-auto,
 .size-full,
 .size-large,
 .size-medium,
@@ -1243,10 +1242,10 @@ a img.aligncenter {
 }
 
 #commercial {
-	position: fixed; 
-	top: 0; 
-	right: 0; 
-	width: 69px; 
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 69px;
 	height: 164px;
 }
 
@@ -1273,22 +1272,22 @@ a img.aligncenter {
 }
 
 /* =Menu----------------------------------------------- */
-.main-navigation {	
-	clear: both;	
-	display: block;	
-	float: left;	
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
 	width: 75%;
 	border-bottom: 1px solid #121926;
 }
-.main-navigation ul {	
-	list-style: none;	
-	margin: 0;	
+.main-navigation ul {
+	list-style: none;
+	margin: 0;
 	padding-left: 0;
 }
-.main-navigation li {	
-	float: left;	
-	position: relative;	
-	margin-right: 15px; 
+.main-navigation li {
+	float: left;
+	position: relative;
+	margin-right: 15px;
 	list-style:none;
 }
 
@@ -1296,15 +1295,15 @@ a img.aligncenter {
 .main-navigation ul li a { display: block; padding-bottom: 15px;}
 
 .main-navigation a {	display: block;	text-decoration: none;	font-size: 24px;	font-family: 'Oswald', sans-serif;	color: #fff;	line-height: 25px;		-webkit-transition: all 0.3s;	-moz-transition: all 0.3s;	-o-transition: all 0.3s;	-ms-transition: all 0.3s;	transition: all 0.3s;	}
-.main-navigation ul ul {	
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);	
-	background-color: rgba(255, 255, 255, 0.9);	
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.9);
 	padding: 10px;
-	display: none;	
-	float: left;	
-	position: absolute;		
-	top: 40px;		
-	left: 0;	
+	display: none;
+	float: left;
+	position: absolute;
+	top: 40px;
+	left: 0;
 	z-index: 99999;
 	-webkit-border-radius: 10px;
 	-webkit-border-top-left-radius: 0;
@@ -1318,7 +1317,7 @@ a img.aligncenter {
 .main-navigation ul ul a {	width: 200px;}
 .main-navigation ul ul li a{
 	color: #010D26;
-	padding-bottom: 5px; 
+	padding-bottom: 5px;
 	font-weight: 300;
 }
 .main-navigation li:hover > a {}
@@ -1335,8 +1334,8 @@ a img.aligncenter {
 
 /* Small menu */
 .menu-toggle {	display: none;	cursor: pointer;}
-@media screen and (max-width: 600px) {	
-	.menu-toggle,	.main-navigation.toggled .nav-menu {		display: block;	}	
+@media screen and (max-width: 600px) {
+	.menu-toggle,	.main-navigation.toggled .nav-menu {		display: block;	}
 	.main-navigation ul {		display: none;	}
 }
 #header{
